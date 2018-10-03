@@ -1,0 +1,51 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu__item {
+    font-weight: 700; /* толщина шрифта */
+    font-size: 14px; /* высота шрифта */
+}
+
+.menu__item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c456a;
+}
+
+.book{
+    display: block;
+    background: #FEA100;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px 0;
+    border: 0;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.book__icon{
+    background: url("../img/order.png");
+    display: block;
+    width: 21px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.main-header{
+    padding: 24px 0;
+}
