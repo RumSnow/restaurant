@@ -1,51 +1,168 @@
 body {
-    font-family: 'Sintony', sans-serif;
-    color: #5c6369;
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
 }
 
 ul, li {
-    margin: 0;
-    padding: 0;
-    display: block;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+
+p{
+	line-height: 1.9em;
+}
+
+.yellow{
+	color: #FEA100;
 }
 
 .menu {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 .menu__item {
-    font-weight: 700; /* толщина шрифта */
-    font-size: 14px; /* высота шрифта */
+	font-weight: 700; /* толщина шрифта */
+	font-size: 14px; /* высота шрифта */
 }
 
-.menu__item a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #2c456a;
+.menu__item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #2c456a;
 }
 
-.book{
-    display: block;
-    background: #FEA100;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
-    border-radius: 5px;
-    padding: 15px 0;
-    border: 0;
-    cursor: pointer;
-    width: 200px;
-    text-transform: uppercase;
+.cta {
+	display: block;
+	background: #FEA100;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 15px 0;
+	border: 0;
+	cursor: pointer;
+	width: 200px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
-.book__icon{
-    background: url("../img/order.png");
-    display: block;
-    width: 21px;
-    height: 17px;
-    margin-right: 10px;
+.cta:hover{
+	text-decoration: none;
+	color: #ffffff;
 }
 
-.main-header{
-    padding: 24px 0;
+.book__icon {
+	background: url("../img/order.png");
+	display: block;
+	width: 21px;
+	height: 17px;
+	margin-right: 10px;
 }
+
+.main-header {
+	padding: 24px 0;
+}
+
+.offer {
+	background: url("../img/first-bg.jpg") no-repeat center top;
+	/*height: 500px;*/
+}
+
+.title {
+	margin: 215px 0;
+}
+
+.title__heading {
+	font-size: 56px;
+	color: #ffffff;
+}
+
+.title__desc {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -10px;
+}
+
+.title__desc span {
+	color: #FEA100;
+}
+
+.call {
+	background: #EDF1F3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+
+.phone {
+	width: 450px;
+}
+
+.phone__text {
+	background: url("../img/phone.png") no-repeat left center;
+	font-size: 14px;
+	color: #14141d;
+	text-transform: uppercase;
+	width: 180px;
+	padding-left: 56px;
+	padding-top: 5px;
+}
+
+.phone__text span{
+	font-size: 16px;
+	color: #FEA100;
+	font-weight: 700;
+	margin-top: -4px;
+	display: block;
+}
+
+.phone__numbers {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-left: 42px;
+	font-size: 32px;
+	color: #14141d;
+	margin-top: -5px;
+}
+
+.history{
+	margin-top: 30px;
+}
+
+.history__title{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.history__text{
+	font-size: 14px;
+}
+
+.history__button{
+	width: 148px;
+	margin-top: 48px;
+}
+
+.about{
+	padding: 65px 0 100px;
+}
+
+.food-images__item{
+	margin-bottom: 10px;
+}
+
+.food-images-down{
+	margin-top: 50px;
+}
+
+
+
+
+
